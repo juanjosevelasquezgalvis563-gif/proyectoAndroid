@@ -1,5 +1,6 @@
 package com.sena.taskmanager.data.remote.model
 
+
 data class TaskDocument(
     val ownerId: String = "",
     val title: String = "",
