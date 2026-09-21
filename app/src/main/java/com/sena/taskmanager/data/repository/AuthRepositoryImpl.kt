@@ -20,6 +20,7 @@ class AuthRepositoryImpl @Inject constructor(
 
             val user = result.user
 
+
             if (user != null) {
                 Result.success(user.uid)
             } else {
